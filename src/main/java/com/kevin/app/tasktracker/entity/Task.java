@@ -45,7 +45,7 @@ public class Task {
         this.parentId = parentId;
     }
 
-    public boolean isDone() {
+    public boolean getDone() {
         return isDone;
     }
 
@@ -53,3 +53,5 @@ public class Task {
         isDone = done;
     }
 }
+
+
